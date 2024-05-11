@@ -153,7 +153,39 @@ article .text-box form input[type="button"]:hover,
 
   article picture #img {
     min-width: 100vw;
-
     height: fit-content;
+  }
+
+  
+  .hidden {
+    display: none !important;
+  }
+
+  .subscribed-container {
+    min-height: 100vh;
+    min-width: 100vw;
+    border-radius: 0px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+
+  .subscribed-container input {
+    position: absolute;
+    bottom: 3rem;
+    max-width: 80vw;
+  }
+
+  .subscribed-container h1 {
+    font-size: 3rem;
+  }
+
+  .subscribed-container h1::before {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .subscribed-container p {
+    font-size: 1.1rem;
   }
 }
